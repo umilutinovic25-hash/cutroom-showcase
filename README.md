@@ -1,48 +1,56 @@
 # Cutroom
 
-**Turn long recordings into polished short-form videos, with AI assistance and the editor in control.**
+**Turn long recordings into polished short-form videos—with AI assistance and the editor in control.**
 
-Cutroom is a desktop video-editing workspace for creators who want to shape a long recording into a clear, engaging edit. It helps organize source footage, find the story, build an edit, and prepare a finished export—all in one place.
+Cutroom is a macOS video-editing workspace for creators. Bring in a recording, shape its story, refine the cut on a multitrack timeline, and prepare a finished video for social platforms.
 
-AI can suggest a story structure and an edit decision list (EDL), but the editor reviews and approves the choices. From there, work with the transcript and timeline, refine framing and captions, add music or B-roll, and check the final render before exporting.
+AI can help organize a story and suggest an edit decision list (EDL). You review and approve those decisions, then refine the result using the transcript, framing tools, captions, titles, music, and B-roll. A final quality check helps catch issues before export.
+
+The interface is available in **English and Serbian**. Projects stay on your Mac. Local Ollama processing stays on-device; when you choose an online provider, the context needed for that request is sent according to that provider's settings.
 
 ## Screenshots
 
 ### Start a project
+
 Choose a creator style, open a local project, or start from a video link. The home screen brings the main workflows together.
 
 ![Cutroom home screen](screenshots/home.png)
 
 ### Study references in Style Lab
-Review reference videos, compare their pacing, and use Hook Studio to develop hook ideas for your topic and audience.
+
+Review reference videos, compare their pacing, and develop hook ideas for a topic and audience.
 
 ![Cutroom Style Lab](screenshots/style-lab.png)
 
-### Edit the story on a timeline
-Review the source, story, transcript, cuts, framing, titles, and export checks in a single editing workspace.
+### Edit on a multitrack timeline
+
+Review the source, story, transcript, framing, captions, and export checks in one editing workspace.
 
 ![Cutroom timeline editor](screenshots/timeline-editor.png)
 
 ### Timeline detail
-A closer look at the story segments, video and dialogue tracks, music, captions, and B-roll lanes.
+
+Story segments, video and dialogue tracks, music, captions, and B-roll lanes work together in the edit.
 
 ![Close-up of the Cutroom editing timeline](screenshots/timeline-detail.png)
 
 ## What Cutroom does
 
-- **Finds a story in long footage:** AI-assisted story and EDL proposals help identify a structure for short-form edits. The editor can review the proposal before applying it.
-- **Uses reference videos to guide the edit:** Style Lab analyzes pacing across selected references, while Hook Studio helps draft hooks for a specific topic and audience.
+- **Shapes a story from long footage:** AI-assisted story and EDL proposals give you a starting point, with review and approval in your hands.
+- **Studies editing references:** Style Lab compares pacing across selected videos; Hook Studio helps draft original hooks for your topic and audience.
 - **Connects transcript and timeline editing:** Refine cuts from the transcript, then arrange and adjust story segments on the timeline with undo and redo.
-- **Shapes the finished video:** Adjust framing, captions, titles, music, and B-roll, with support for different aspect ratios.
-- **Checks exports:** Review render quality, including audio levels, black frames, silence, and timing, before exporting.
-- **Keeps projects on your Mac:** Project files and media stay local. When an online AI provider is selected, only the context needed for that request is sent according to the provider settings; local Ollama processing stays on-device.
+- **Builds social-ready edits:** Adjust framing and aspect ratios, add captions and titles, and work with music and B-roll.
+- **Checks the final export:** Review render quality, including audio levels, black frames, silence, and timing.
+- **Keeps work local by default:** Projects and media are stored on your Mac.
 
 ## O Cutroom-u
 
-Cutroom je desktop aplikacija za montažu koja pomaže da se od dugog snimka napravi jasno strukturisan video za društvene mreže. U jednom radnom prostoru možeš da pregledaš snimak i transkript, pronađeš glavne delove priče, urediš kadrove na vremenskoj liniji, dodaš titlove, muziku i B-roll, pa proveriš i izvezeš završni video.
+Cutroom je macOS radni prostor za video montažu koji pomaže kreatorima da od dugog snimka naprave jasno strukturisan video za društvene mreže.
 
-AI može da predloži strukturu priče i EDL (listu odluka za montažu), ali ti pregledaš predloge i odlučuješ šta će ući u montažu. Style Lab pomaže da proučiš ritam referentnih videa, a Hook Studio predlaže uvodne rečenice prilagođene temi i publici. Projekti i mediji čuvaju se lokalno na Mac-u; obrada preko Ollama modela takođe ostaje na uređaju.
+AI može da predloži strukturu priče i EDL — listu odluka za montažu — a ti pregledaš predloge i odobravaš izmene. Zatim možeš da uređuješ transkript i kadrove na vremenskoj liniji, prilagodiš kadriranje, dodaš titlove, naslove, muziku i B-roll, pa proveriš završni izvoz.
+
+Style Lab pomaže u analizi ritma referentnih snimaka, a Hook Studio u osmišljavanju uvodnih rečenica za određenu temu i publiku. Interfejs je dostupan na srpskom i engleskom. Projekti i mediji čuvaju se lokalno na Mac-u.
 
 ## About this repository
 
-Cutroom is proprietary software. This public repository is a visual showcase with screenshots and a product overview; it does not include the application source code, build files, or an app download.
+Cutroom is proprietary software. This public repository is a product showcase containing descriptions and screenshots only. It does **not** contain application source code, build files, binaries, project media, or secrets.
