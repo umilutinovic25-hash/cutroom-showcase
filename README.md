@@ -43,14 +43,6 @@ Story segments, video and dialogue tracks, music, captions, and B-roll lanes wor
 - **Checks the final export:** Review render quality, including audio levels, black frames, silence, and timing.
 - **Keeps work local by default:** Projects and media are stored on your Mac.
 
-## O Cutroom-u
-
-Cutroom je macOS radni prostor za video montažu koji pomaže kreatorima da od dugog snimka naprave jasno strukturisan video za društvene mreže.
-
-AI može da predloži strukturu priče i EDL — listu odluka za montažu — a ti pregledaš predloge i odobravaš izmene. Zatim možeš da uređuješ transkript i kadrove na vremenskoj liniji, prilagodiš kadriranje, dodaš titlove, naslove, muziku i B-roll, pa proveriš završni izvoz.
-
-Style Lab pomaže u analizi ritma referentnih snimaka, a Hook Studio u osmišljavanju uvodnih rečenica za određenu temu i publiku. Interfejs je dostupan na srpskom i engleskom. Projekti i mediji čuvaju se lokalno na Mac-u.
-
 ## About this repository
 
 Cutroom is proprietary software. This public repository is a product showcase containing descriptions and screenshots only. It does **not** contain application source code, build files, binaries, project media, or secrets.
